@@ -1,0 +1,14 @@
+<h2>Create New Message</h2>
+<form method="POST" action="/create">
+  <label>Recipient:</label><br />
+  <input type="text" name="recipient" required /><br />
+  <label>Title:</label><br />
+  <input type="text" name="title" required /><br />
+  <label>Message:</label><br />
+  <textarea name="content" required></textarea><br />
+  <label>Hold Days:</label><br />
+  <input type="number" name="hold_days" min="1" required /><br />
+  <label>Expiration Date:</label><br />
+  <input type="date" name="expiration_date" required /><br /><br />
+  <button type="submit">💾 Save</button>
+</form>
