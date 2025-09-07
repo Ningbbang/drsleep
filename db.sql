@@ -1,5 +1,5 @@
-CREATE DATABASE doctor_sleep;
-USE doctor_sleep;
+CREATE DATABASE drsleep;
+USE drsleep;
 
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
